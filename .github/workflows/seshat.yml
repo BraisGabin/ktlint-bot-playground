@@ -10,4 +10,4 @@ jobs:
     - name: ktlint
       uses: BraisGabin/seshat-ktlint@v0.0.7
     - name: report-seshat
-      uses: BraisGabin/seshat-reporter@v0.0.1
+      uses: BraisGabin/seshat-reporter@v0.0.7
