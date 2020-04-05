@@ -1,0 +1,13 @@
+on: [pull_request]
+
+jobs:
+  seshat:
+    name: Seshat
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v2
+    - name: ktlint
+      uses: BraisGabin/seshat-ktlint@v0.0.7
+    - name: report-seshat
+      uses: BraisGabin/seshat-reporter@v0.0.1
