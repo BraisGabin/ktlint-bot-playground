@@ -18,11 +18,10 @@ interface Hanabi {
         operator fun get(i: Int): Card
     }
 
-    interface Table
-{
-        val size : Int
+    interface Table {
+        val size: Int
 
-        operator fun get(i:Int): Int
+        operator fun get(i: Int): Int
     }
 }
 
