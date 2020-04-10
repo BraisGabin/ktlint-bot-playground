@@ -12,7 +12,7 @@ interface Hanabi {
 
     interface Action
 
-    interface Deck{
+    interface Deck  {
         val size: Int
 
         operator fun get(i: Int): Card
