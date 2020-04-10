@@ -1,8 +1,8 @@
+name: Seshat
 on: [pull_request]
 
 jobs:
   seshat:
-    name: Seshat
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
